@@ -1,4 +1,4 @@
-#include <WiFi.h> //primero se importa las libreria de de wifi
+#include <WiFi.h> //se importa las libreria de de wifi
 #include "FirebaseESP32.h" //se importa el firebase , el cual es la plataforma que se usa para recibir los datos 
 
 //se reciben los datos : red de wifi y contraseña de esta red 
@@ -53,5 +53,5 @@ void loop() {
     digitalWrite(2,LOW); //si desde el firebase se recibe un 0, entonces las luces se apagaran
     digitalWrite(27,LOW);
   }
- // Firebase.end(firebaseData);
+ 
 }
